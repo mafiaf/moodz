@@ -19,6 +19,7 @@ Route::get('/', function () {
 Route::get('users', ['uses' => 'UsersController@index']);
 Route::get('users/create', ['uses' => 'UsersController@create']);
 Route::post('users', ['uses' => 'UsersController@store']);
+route::get('moodz', ['uses' => 'HomeController@moodz']);
 
 /* Een route creeren voor crud. actie is users en actie is de type route die er gebruikt wordt.
 
